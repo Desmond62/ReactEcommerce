@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin:20px auto;
+    border-radius: 5px;
+    box-shadow: 00 4px 12px grey;
+}
+.click{
+    text-decoration: none;
+    color: black;
+}
+.img{
+    position: relative;
+    transition: .5s;
+}
+.doc1 i{
+    visibility: hidden;
+}
+.img:hover .doc i {
+visibility: visible;
+opacity: 1;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+}
+
+.img:hover{
+    transform: scale(1.025);
+    opacity: 0.5;
+}
+/* .img:hover{
+    opacity: 0.5; 
+} */
+
+.doc{
+    width: fit-content;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.doc i{
+    margin: 7px;
+    font-size: 25px;
+    color: black;
+}
+
+.fle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2px;
+}
+.subimg del{
+    color: grey;
+}
+.subimg p{
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    padding-top: 5px;
+    text-align: center;
+}
+.bt{
+    text-align: center;
+    margin-top: 10px;
+}
+.bt button{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: white;
+    font-weight: 600;
+}
+.bt button:hover{
+    background-color: white;
+    color: goldenrod;
+    transition: .3s;
+    border: 1px solid goldenrod;
+}
+.subsocial{
+    text-align: center;
+}
+.subsocial i{
+   color: goldenrod;
+   font-size: 13px;
+   margin: 0px 2px;
+}
+
+                  /*First Navbar Section */
+.spa{
+    background-color: black;
+    color: goldenrod;
+    padding: 6px 5px;
+    font-weight: 700;
+}
+.spa1{
+    background-color: goldenrod;
+    color: black;
+    padding: 6px 5px;
+    font-weight: 700;
+}
+.service{
+    padding: 0;
+    margin: 0;
+}
+.service p{
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.service h5{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;  
+    font-weight: 800;
+}
+
+.inp{
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 350px;
+    border: 1px solid rgb(204, 202, 202);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-size: 14px;
+}
+.btn{
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(204, 202, 202);
+}
+.btn i{
+    color: goldenrod;
+}
+
+                     /* Second NAvbar */
+
+.cart{
+    display: flex;
+}
+.down{
+    color: white;
+}
+.cart span i{
+    margin: 0px 8px;
+}
+.cart i{
+    margin: 0px 20px;
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.top{
+    padding: 3px 4px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 800;
+    position: relative;
+    bottom: 15px;
+    right: 5px;
+}
+.cat{
+    margin: 0px 5px;
+}
+.bar i{
+    margin: 0px 10px;
+}
+.bar span{
+    font-weight: 650;
+}
+.dropbtn {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    background-color: goldenrod;
+    padding: 14px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999999;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .dropdowncontent span {
+    color: #222;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .dropdowncontent span:hover {
+    color: grey;
+}
+  
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(219, 176, 69);
+    transition: .3s;
+  }
+
+  .dropbtn1 {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowncontent1 {
+    top: 100%;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+ 
+  .dropdowncontent1 a {
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+  }
+  
+  .dropdowncontent1 a:hover {
+    background-color: rgb(239, 166, 29);
+    border-radius: 5px;
+}
+
+  
+  .dropdown1:hover .dropdowncontent1 {
+    display: block;
+  }
+  
+  
+  .dropdown1:hover .dropbtn {
+    background-color: #f1f1f1;
+  }
+
+  .dropbtn1{
+    display: flex;
+    align-items: baseline;
+    margin-top: 0px;
+}
+.dropbtn1 p{
+    font-weight: 600;
+
+}
+.dropbtn1:hover{
+color: rgb(242, 161, 11);
+transition: .2s;
+}
+.ico{
+    font-size: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.arr{
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+
+
+            /* Register Section */
+.backg{
+    background-image: url('smoke.jpg');
+    height: 100vh;
+    padding-top: 40px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.dis{
+    padding: 20px 30px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+.dis label{
+    font-size: 15px;
+}
+
+.btt{
+    text-align: center;
+    margin-top: 20px;
+}
+.btt button{
+    border: none;
+    width: 70%;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient( goldenrod, black);
+    font-weight: 800;
+}
+.btt button:hover{
+    width: 50%;
+    transition: .3s;
+}
+
+
+            /* Login Section */
+.backg1{
+    background-image: url('digit.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+.cyn{
+    padding: 20px 40px;
+    background-color: rgb(0, 0, 0, 0.6);
+    border: 1px solid white;
+    border-radius: 15px;   
+}
+.cyn label{
+    font-size: 15px;
+}
+.bu{
+    text-align: center;
+    margin-top: 20px;
+}
+.bu button{
+    border: none;
+    width: 70%;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient( rgb(231, 186, 71), black);
+    font-weight: 800;
+}
+.bu button:hover{
+    width: 50%;
+    transition: .3s;
+}
+
+
+
+                      /* Footer Section */
+
+                      .splay{
+                        display: flex;
+                        align-items: center; 
+                        gap: 10px;
+                    
+                    }
+                    .splay h1{
+                        font-size: 30px;
+                        font-weight: 700;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                    }
+                    .Mes{
+                        color: goldenrod;
+                        font-size: 35px;
+                    }
+                    .line{
+                        color: white;
+                    }
+                    .line h4{
+                        font-size: 15px;
+                    }
+                    .line p{
+                        font-size: 12px;
+                    }
+                    .input{
+                        display: flex;
+                        gap: 10px;
+                    }
+                    .line input{
+                        padding: 10px;
+                        width: 240px;
+                        outline-color: goldenrod;
+                        border-radius: 5px;
+                        border: none;
+                    }
+                    .line button{
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    border: 1px solid gainsboro;
+                    color: white;
+                    font-size: 13px;
+                    font-weight: 600;
+                    }
+                    .line button:hover{
+                        border: 1px solid  rgb(255, 136, 0);
+                        color:  rgb(255, 136, 0);
+                        transition: .2s ease-in-out;
+                    }
+                    
+                    .access{
+                        display: flex;
+                        gap: 15px;
+                        color: white;
+                    }
+                    
+                    .Mess{
+                        padding: 5px;
+                        font-size: 40px;
+                        color: white;
+                        background-color:  goldenrod;
+                        border-radius: 5px;
+                    }
+                    .access h4{
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    .access p{
+                        font-size: 12px;
+                    }
+                    
+                    .apps{
+                        border: none;
+                        border-radius: 5px;
+                        background-color: transparent;
+                        border: 1px solid gainsboro;
+                        color: white;
+                        margin: 0px 5px;
+                    }
+                    .apps:hover{
+                        border: 1px solid  rgb(255, 136, 0);
+                        color:  rgb(255, 136, 0);
+                        transition: .2s ease-in-out;  
+                    }
+                    .app{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                    text-align: justify;
+                    gap: px;
+                    }
+                    .app img{
+                        width: 30px;
+                    }
+                    
+                    .app h5{
+                        font-size: 10px;
+                        padding: 0;
+                        margin: 0;
+                        font-weight: 700;
+                    }
+                    .app p{
+                        font-size: 10px;
+                        padding: 0;
+                        margin: 0;
+                       
+                    }
+                    .lin{
+                        text-decoration: none;
+                        padding:0px 5px;
+                    
+                    }
+                    .lin {
+                        width: fit-content;
+                        color: ghostwhite;
+                    
+                    }
+                    .lin p{
+                        padding: 0;
+                        margin: 0;
+                        line-height: 0px;
+                        font-size: 11px;
+                        font-weight: 400;
+                    }
+                    .lin:hover {
+                        text-decoration: underline;
+                    }
+                    
+                    .link h4{
+                        font-size: 13px;
+                        font-weight: 650;
+                        color: white;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .inter{
+                        display: flex;
+                        gap: 30px;
+                    }
+                    
+                    .social{
+                        margin-top: 25px;
+                    }
+                    
+                    .social h4{
+                        font-size: 13px;
+                        font-weight: 650;
+                        color: white;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .soc{
+                        width: fit-content;
+                        color: ghostwhite;   
+                        text-decoration: none;
+                        font-size: 25px;
+                        padding: 8px 8px 0px 0px;
+                    
+                    }
+                    .soc:hover{
+                        color: goldenrod;
+                        transition: .2s;
+                    }
+                    
+                    .footer{
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                    }
+                    .navv{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 13px;
+                        font-weight: 800;
+                        margin-bottom: 10px;
+                    }
+                    .navv:hover{
+                        color: goldenrod;
+                    }
+                    .nav{
+                        text-decoration: none;
+                    }
+                    .famy{
+                        font-size: 12px;
+                        color: white;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+                    .famy:hover{
+                        color: gainsboro;
+                    }
+
+
+
+
+                    /* Second Categories Section */
+                    .categories{
+                        background-color: white;
+                        display: flex;
+                        gap: 30px;
+                        align-items: center;
+                        border: 1px solid goldenrod;
+                        box-shadow: 00 5px 13px grey;
+                    }
+              
+                    .categories img{
+                        height: 90px;
+                        border-right: 1px solid goldenrod;
+                    }
+
+                    .categories img:hover {
+                        border-right: 1px solid white;
+                    }
+
+                    .categories:hover{
+                        background-color: rgb(0, 0, 0, 0.6);
+                        color: white;
+                        border: 1px solid white; 
+                        transition: .3s;
+                    }
+                
+                    .categories p{
+                        font-size: 13px;
+                        font-weight: 600;
+                    }
+                    .categories h4{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: goldenrod;
+                    }
+                    .h1{
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                 
+
+
+                    /* Sub Carousel Section */
+                    
+                    .mark{
+                        display: flex;
+                        justify-content: space-evenly;
+                        background-color: white;
+                        padding: 20px 0px 5px 0px;
+                        /* padding: 20px 20px 5px 20px;
+                        width: fit-content;
+                        gap: 10px; */
+                        box-shadow: 00 5px 12px gainsboro;
+                    }
+                    .mark p{
+                        font-weight: 550;
+                    }
+                    .mark1{
+                        font-size: 30px;
+                        color: goldenrod;
+                    }
+                    /* .mark:hover .mark1 {
+                        color: white;
+                        transition: .4s;
+                    }
+                    .mark:hover p {
+                        color: white;
+                        transition: .4s;
+                    }
+                    .mark:hover{
+                        background-color: goldenrod;
+                        color: white;
+                        transition: .4s;
+                    } */
